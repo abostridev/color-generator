@@ -115,3 +115,9 @@ color-info{
     color: #64748b;   
 }
 
+@media (max-width: 768px) {
+    .palette-container
+        {
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        }
+}
